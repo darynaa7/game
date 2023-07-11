@@ -1,0 +1,10 @@
+^D:\C++\GAME\GAME\CMAKELISTS.TXT
+setlocal
+D:\softw\cmake-3.27.0-rc3-windows-x86_64\bin\cmake.exe -SD:/c++/game/game -BD:/c++/game/game --check-stamp-file D:/c++/game/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

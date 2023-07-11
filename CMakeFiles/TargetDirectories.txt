@@ -1,0 +1,3 @@
+D:/c++/game/game/CMakeFiles/game.dir
+D:/c++/game/game/CMakeFiles/ALL_BUILD.dir
+D:/c++/game/game/CMakeFiles/ZERO_CHECK.dir
