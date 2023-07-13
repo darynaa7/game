@@ -13,3 +13,6 @@ bin/
 *.filters
 
 *.user
+
+CMakeCache.txt
+cmake_install.cmake
