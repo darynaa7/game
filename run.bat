@@ -1,2 +1,3 @@
-@echo off
-start D:\c++\game\game\bin\Debug\game.exe
+echo off
+cmake --build .
+start \c++\game\game\bin\Debug\game.exe

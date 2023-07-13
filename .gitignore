@@ -1,0 +1,8 @@
+x64/
+
+game.dir/
+Debug/
+CMakeFiles/
+*.vcxproj
+*.filters
+*.user
