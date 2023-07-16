@@ -1,9 +1,6 @@
 x64/
-
-game.dir/
-
 Debug/
-
+game.dir/
 CMakeFiles/
 
 bin/
