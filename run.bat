@@ -1,3 +1,12 @@
-echo off
+@echo off
+rmdir /s /q build
+mkdir build
+cd  build
+cmake ..
 cmake --build .
-start \c++\game\game\bin\Debug\game.exe
+start bin\Debug\game.exe
+
+
+
+
+
